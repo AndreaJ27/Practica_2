@@ -14,15 +14,16 @@ namespace Ejercicio_StringInt
             //Variables
             String nombre;
             int edad;
-            String linea;
+            
 
             //Operación
             Console.WriteLine("Ingresa tu nombre: ");
             nombre = Console.ReadLine();
 
             Console.WriteLine("Ingresa tu edad: ");
-            linea = Console.ReadLine();
-            edad = int.Parse(linea);
+            
+            edad = int.Parse(Console.ReadLine());
+
 
             //Resultado
             Console.WriteLine("Te llamas " + nombre + " y tienes " + edad);
